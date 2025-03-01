@@ -1,6 +1,6 @@
 # Rick And Morty API - Django
 
-### Caso preferir fiz uma breve documentação no Notion: https://rhetorical-quail-2ca.notion.site/Fabrica-25-1-1a90e012d08e8082b0bbf9f68a9e1e9c?pvs=73
+### Caso preferir fiz uma documentação mais completa no Notion: https://rhetorical-quail-2ca.notion.site/Fabrica-25-1-1a90e012d08e8082b0bbf9f68a9e1e9c?pvs=73
 
 Este é um projeto Django que consome a API do Rick & Morty e permite visualizar e adicionar personagens.
 
