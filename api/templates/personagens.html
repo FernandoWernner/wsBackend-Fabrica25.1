@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Personagens</title>
+</head>
+<body>
+    <h1>Personagens Rick And Morty</h1>
+    <ul>
+        {% for character in characters %}
+            <li>
+                <img src="{{ character.image }}" width="100">
+                {{ character.name }} - {{ character.species }}
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
