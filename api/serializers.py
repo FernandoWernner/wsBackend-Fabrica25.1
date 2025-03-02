@@ -7,7 +7,7 @@ class EpisodeSerializer(serializers.ModelSerializer):
         fields = '__all__'
 
 class CharacterSerializer(serializers.ModelSerializer):
-    episodes = EpisodeSerializer(many=True) 
+    episodes = EpisodeSerializer(many=True, required=False) 
 
     class Meta:
         model = Character
