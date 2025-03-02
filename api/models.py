@@ -13,7 +13,7 @@ class Character(models.Model):
     status = models.CharField(max_length=50)
     species = models.CharField(max_length=100)
     image = models.URLField()
-    episodes = models.ManyToManyField(Episode) 
+    episodes = models.ManyToManyField(Episode, blank=True, null=True) 
 
     def __str__(self):
         return self.name
